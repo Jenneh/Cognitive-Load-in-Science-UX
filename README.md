@@ -1,4 +1,4 @@
-# The Carpentries Workbench Template Markdown Lesson
+# How to reduce cognitive load in scientific software
 
 This lesson is a template lesson that uses [The Carpentries Workbench][workbench]. 
 
