@@ -67,6 +67,7 @@ contact: 'mikeamorrison@gmail.com, jennlkotler@gmail.com'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
+- Episode1.md
 
 # Information for Learners
 learners: 
