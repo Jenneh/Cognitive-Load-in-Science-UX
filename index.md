@@ -5,7 +5,7 @@ site: sandpaper::sandpaper_site
 This is a new lesson built with [The Carpentries Workbench][workbench]. 
 
 
-**After following this lesson, learners will be able to:**
+##After following this lesson, learners will be able to:##
  
 * When presented with a software example, learner will be able to identify areas causing higher cognitive load (things aren't aligned, too many fonts/sizes, not enough space, illogical item groupings)
     * Basic literacy in evaluating a design
@@ -26,6 +26,11 @@ This is a new lesson built with [The Carpentries Workbench][workbench].
 
 * Be able to create and fix "clutter"
 * Create design hirearchy
+
+
+::: prereq
+- Basic diagramming (ie: drawing shapes with Powerpoint, miro board, Figma, MS Paint, Pen & Paper, Excalidraw)
+:::
 
 
 [workbench]: https://carpentries.github.io/sandpaper-docs
