@@ -257,7 +257,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="Episode1.html">2. Episode1</a>
+        <a href="Episode1.html">2. Outline: How to De-Clutter Scientific Software and Optimize Cognitive Load</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -508,186 +508,496 @@ locally</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-Episode1"><p>Content from <a href="Episode1.html">Episode1</a></p>
+</section></section><section id="aio-Episode1"><p>Content from <a href="Episode1.html">Outline: How to De-Clutter Scientific Software and Optimize Cognitive Load</a></p>
 <hr>
-<p>Last updated on 2025-10-24 |
+<p>Last updated on 2025-12-30 |
 
         <a href="https://github.com/Jenneh/Cognitive-Load-in-Science-UX/edit/main/episodes/Episode1.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
+<div class="section level1">
+<h1 id="target-audience">Target Audience<a class="anchor" aria-label="anchor" href="#target-audience"></a>
+</h1>
+<p>A developer who’s building science tools, without the support of a
+designer. If they build software without thinking about the design, the
+software will be hard to use, taking away from the utility of the tool.
+This may lead to continual requests for changes after launch that could
+have been avoided if the design had been considered up front. A
+background in design can empower developers to build tools that are more
+effective for scientists.</p>
+</div>
+<div class="section level1">
+<h1 id="list-of-prerequisite-knowledge">List of prerequisite knowledge<a class="anchor" aria-label="anchor" href="#list-of-prerequisite-knowledge"></a>
+</h1>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>Basic diagramming (ie: drawing shapes with Powerpoint, miro board,
+Figma, MS Paint, Pen &amp; Paper, Excalidraw)</li>
 </ul>
 </div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
-</h2>
-<hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.html" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
+<div class="section level1">
+<h1 id="lesson-learning-objectives">Lesson Learning Objectives<a class="anchor" aria-label="anchor" href="#lesson-learning-objectives"></a>
+</h1>
+<p>The skills learned will be applicable to improving existing software
+and creating something new. After following this lesson, learners will
+be able to:</p>
 <ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
+<li>Learner will leave with basic literacy in evaluating a design
+<ol style="list-style-type: decimal">
+<li>When presented with a software example, learner will be able to
+identify areas causing higher cognitive load (things aren’t aligned, too
+many fonts/sizes, not enough space, illogical item groupings)<br>
+</li>
+<li>When presented with a software example, learner will be able to call
+out what ‘stands out first, second, and third’ on the page in an order
+similar to the instructer’s own perception.<br>
+</li>
 </ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
+</li>
+<li>Learner will be able to create design hierarchy
+<ol style="list-style-type: decimal">
+<li>When given a list of software functions, ranked by importance,
+learner will be able to create a layout using shapes and text that
+establishes a hierarchy<br>
+</li>
+<li>When given a basic layout, learner will be able to add elements to
+create clutter and remove elements to fix “clutter”<br>
+</li>
+</ol>
+</li>
+<li>When given a list of field names, learner will be able to correctly
+identify when use of technical language (Acrynoms, database speak, high
+level vocab) is helpful or harmful
+<ol style="list-style-type: decimal">
+<li>defining language that may be unfamilliar to others<br>
+</li>
+<li>using simpler language when possible<br>
+</li>
+</ol>
+</li>
+<li>Learner will be able to recite 3 key best practices of layout
+design</li>
+</ol>
 </div>
-</div>
-</div>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?</h3>
-<div class="callout-content">
-<p>What is the output of this command?</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Output </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<span class="callout-header">Challenge</span>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within
-challenge blocks?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
+<div class="section level1">
+<h1 id="episodes">Episodes<a class="anchor" aria-label="anchor" href="#episodes"></a>
+</h1>
+<div class="section level2">
+<h2 id="jargon-busting-what-is-cognitive-load-learn-to-feel-high-and-low-cognitive-load">Jargon busting (what is cognitive load?): Learn to <em>feel</em>
+high and low cognitive load<a class="anchor" aria-label="anchor" href="#jargon-busting-what-is-cognitive-load-learn-to-feel-high-and-low-cognitive-load"></a>
 </h2>
-<hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<span class="callout-header">Callout</span>
-<div class="callout-inner">
-<div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
-</div>
-</div>
-</div>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<span class="callout-header">Key Points</span>
-<div class="callout-inner">
-<div class="callout-content">
+<p><strong>Learning objectives</strong></p>
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>When presented with an <span class="math display">\[example?
+Interface?\]</span> learner will be able to verbally identify it as
+either very low or very high cognitive load in less than 2 seconds.</li>
+</ul>
+<p><strong>Episode outline</strong></p>
+<ul>
+<li>Task mode vs. default mode network - learning to feel when either
+system in your brain is active.
+<ul>
+<li>Sit back from desk, and every thing I say try to associate it with
+its overall meaning, and memories you have of that thing. Tricycle.
+Tricycle means fun. Means scenes in movies with carefree
+childhood.<br>
+</li>
+<li>High load: Now build the tricycle out of disorganized parts, hidden
+within clutter<br>
+</li>
+</ul>
+</li>
+<li>“Cognitive overload” study where brain activity just falls off after
+a certain amount of clutter.<br>
+</li>
+<li>Maybe mention some research-backed consequences of clutter?<br>
+</li>
+<li>Put brain in default mode:</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="theory-of-mind---escape-your-own-perspective-and-feel-the-users-instead">Theory of Mind - Escape your own perspective, and feel the users’
+instead<a class="anchor" aria-label="anchor" href="#theory-of-mind---escape-your-own-perspective-and-feel-the-users-instead"></a>
+</h2>
+<p><strong>Learning objectives</strong></p>
+<ul>
+<li>Learner will know the definition of a “user” in UX, and name ways a
+user’s context will differ from their own as the
+designer/developer<br>
+</li>
+<li>Given an example interface that we have made them familiar with,
+user will be able to recognize and label the pieces of the interface
+that are familiar and unfamiliar <strong>to themselves</strong>.<br>
+</li>
+<li>Given an example interface that we have made them familiar with,
+user will be able to recognize and label the pieces of the interface
+that are familiar and unfamiliar <strong>to a naive user</strong>.</li>
+</ul>
+<p><strong>Episode outline</strong></p>
+<ul>
+<li>Talk over (actually do the experiment!) cup hiding the ball
+experiment that shows when children learn that not everyone has the same
+context<br>
+</li>
+<li>How does this apply to design
+<ul>
+<li>Language and jargon<br>
+</li>
+<li>Workflows - you have been involved in building the tool, you know
+the ins and outs of how it works. Your users do not have that
+context<br>
+</li>
+<li>You may assume ease of use based on your own domain knowledge /
+familiarity, but not all users will have that</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="simplicity---everything-added-subtracts">Simplicity - Everything added subtracts<a class="anchor" aria-label="anchor" href="#simplicity---everything-added-subtracts"></a>
+</h2>
+<div class="section level3">
+<h3 id="learning-objectives">Learning objectives<a class="anchor" aria-label="anchor" href="#learning-objectives"></a>
+</h3>
+<p>Given a self-chosen example interface, the learner will be able to
+identify one aspect to deemphasize.</p>
+<p>Given an example interface, learner will be able to create a quick
+‘whiteout’ mockup in Figma.</p>
+</div>
+<div class="section level3">
+<h3 id="episode-outline">Episode outline<a class="anchor" aria-label="anchor" href="#episode-outline"></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><h4 id="demonstrate-the-problem-count-the-bunnies---its-easier-to-count-the-bunnies-when-theres-no-clutter">Demonstrate
+the problem: count the bunnies - It’s easier to count the bunnies when
+there’s no clutter</h4></li>
+</ol>
+<p>Try to count the bunnies in this photo as quickly as you can.</p>
+<p>![][image1]</p>
+<p>Now, try to count the bunnies as fast as possible again…</p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="section"></h2>
+<p>![][image2]</p>
+<p>Notice that it was much harder to find the (smaller) bunnies when
+there was more clutter? It’s the classic “Where’s Waldo” experience.
+High clutter increases your cognitive load (because you have to work
+harder to filter-out non-bunnies) and slows down your performance.</p>
+<p>Interfaces work the same way. Now imagine the bunnies are crucial
+pieces of information, or buttons to perform tasks.</p>
+</div>
+<div class="section level2">
+<h2 id="example-2-two-graphs-vs-one-graph">Example 2: Two Graphs vs One graph<a class="anchor" aria-label="anchor" href="#example-2-two-graphs-vs-one-graph"></a>
+</h2>
+<p>![][image3]</p>
+<p>![][image4]</p>
+<ol start="2" style="list-style-type: decimal">
+<li><h4 id="context-deleting-is-opposite-of-scientific-thinking.">Context:
+Deleting is opposite of scientific thinking.</h4></li>
+</ol>
+<p>Deleting is opposite of scientific thinking. In science education,
+students are encouraged to write long, wordy, jargon filled papers. Key
+points and take-aways are lost among the noise. A common tactic
+scientists use to highlight key points is
+<strong>over-emphasizing</strong>. If their paper is a crowded room,
+they try to dress their hypothesis in bright yellow. But there are 100
+other people dressed in orange and purple. So then they give their
+hypothesis a hat.</p>
+<p>Let’s focus on the skill of deleting and de-emphasizing.</p>
+<p>“In the spring of my senior year at Lisbon High—1966, this would have
+been—I got a scribbled comment that changed the way I rewrote my fiction
+once and forever. Jotted below the machine-generated signature of the
+editor was this mot:”Not bad, but PUFFY. You need to revise for length.
+Formula: 2nd Draft = 1st Draft – 10%. Good luck.” — Stephen King</p>
+<ol start="3" style="list-style-type: decimal">
+<li>
+<h4 id="tactics">Tactics:</h4>
+<ul>
+<li>
+<strong>Remove</strong> - There is usually text / steps in a
+workflow / visual clutter that can be entirely deleted<br>
+</li>
+<li>
+<strong>Hide until relevan</strong>t - Software is interactive. This
+is powerful because it allows us to share information as it becomes
+relevant to the user. Hide information until the user:
+<ul>
+<li>
+<strong>needs it:</strong> show it as the user arrives at the
+relevant part of the workflow<br>
+</li>
+<li>
+<strong>summons it:</strong> show it when the user requests the
+information. This can be done with hover text or popups.<br>
+</li>
+</ul>
+</li>
+<li>
+<strong>Simplify</strong> - can something condensed without losing
+the important content? What are the fewest words you can use to describe
+a concept? What are the fewest steps needed to complete a task?</li>
+</ul>
+Often people worry that important information will be lost so they keep
+everything in. Remember If you let something go and it comes back then
+its meant to be</li>
+</ol>
+</div>
+<div class="section level2">
+<h2 id="exercise-2-throw-something-away-on-your-desk">Exercise #2: Throw something away on your desk<a class="anchor" aria-label="anchor" href="#exercise-2-throw-something-away-on-your-desk"></a>
+</h2>
+</div>
+<div class="section level2">
+<h2 id="exercise-3-delete-from-their-own-software-because-they-know-it">Exercise #3: Delete from their own software (because they know
+it)<a class="anchor" aria-label="anchor" href="#exercise-3-delete-from-their-own-software-because-they-know-it"></a>
+</h2>
+<ul>
+<li>Open an image in mural (miro?) drawing a white box</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="words-in-the-interface---write-like-youre-having-an-efficient-conversation">Words in the interface - Write like you’re having an efficient
+conversation<a class="anchor" aria-label="anchor" href="#words-in-the-interface---write-like-youre-having-an-efficient-conversation"></a>
+</h2>
+<p><strong>Learning objectives</strong></p>
+<p>Learners will be able to identify what context and education they
+have that (theory of mind)</p>
+<ul>
+<li>Acrynoms, database speak, high level vocab
+<ul>
+<li>defining technical language that may be unfamilliar to others<br>
+</li>
+<li>simplify<br>
+</li>
+<li>Writing like a human<br>
+</li>
+<li>Speak in headline<br>
+</li>
+<li>Progressive summarization<br>
+</li>
+<li>Jenn’s class example (short word limit)
+<ul>
+<li>maybe we can have a run on sentence and have a contest. give
+everyone 3 minutes to reqrite the sentence in as few words as possible.
+(This could be in the language episode instead)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Episode outline</strong></p>
+</div>
+<div class="section level2">
+<h2 id="visual-hierarchy-and-cognitive-load---application-of-priority">Visual Hierarchy and cognitive load - application of priority<a class="anchor" aria-label="anchor" href="#visual-hierarchy-and-cognitive-load---application-of-priority"></a>
+</h2>
+<ul>
+<li>alignment
+<ul>
+<li>fonts<br>
+</li>
+<li>sizes<br>
+</li>
+<li>spacing<br>
+</li>
+<li>grouping<br>
+</li>
+<li>reading order</li>
+</ul>
+</li>
+</ul>
+<p><strong>Exercise</strong></p>
+<ul>
+<li>‘call out what you see’ exercise
+<ul>
+<li>Create design hirearchy</li>
+</ul>
+</li>
+</ul>
+<p>Prioritizing - Need to know -&gt; Nice to know</p>
+<ul>
+<li>
+<p>Episode Objective: When presented with a list of interface
+functions, learner will be able to order them from likely most common to
+least common</p>
+<ul>
+<li>Note: How do we have an ‘objectively correct’ priority?<br>
+</li>
+<li>80/80</li>
+</ul>
+</li>
+<li><p>Basic literacy in evaluating a design</p></li>
+<li><p>When given a list of software functions, ranked by importance,
+learner will be able to create a layout using shapes and text that
+establishes a hierarchy</p></li>
+<li><p>Learner will be able to recite 3 key best practices of layout
+design</p></li>
+<li>
+<p>How can you improve existing software</p>
+<ul>
+<li>fix “clutter”<br>
+</li>
+</ul>
+</li>
+<li><p>How can you create something new</p></li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="final-project---designing-list-view-from-scratch">Final Project - Designing list view from scratch<a class="anchor" aria-label="anchor" href="#final-project---designing-list-view-from-scratch"></a>
+</h2>
+<p><strong>Learning objectives</strong></p>
+<ul>
+<li>How to hack together a new design concept<br>
+</li>
+<li>Use similar elements for familiarity lowers load (knowing what
+something does)</li>
+</ul>
+<p><strong>Episode outline</strong></p>
+<ul>
+<li>Design as a skill</li>
+</ul>
+<p><strong>Activity ideas:</strong></p>
+<ul>
+<li>Product result table (list of stuff you need to review)
+<ul>
+<li>List views are super common<br>
+</li>
+<li>Learners can use their own collection of data to show in the list
+view<br>
+</li>
+<li>We can also give an example with<br>
+</li>
+</ul>
+</li>
+<li>Or an advanced search page (that searches a database of
+exoplanets)</li>
 </ul>
 </div>
 </div>
+<div class="section level1">
+<h1 id="designing-exercises">Designing Exercises<a class="anchor" aria-label="anchor" href="#designing-exercises"></a>
+</h1>
+<p>FIXME use the space below to draft exercises to help you assess
+learners’ progress towards the objectives you defined for your
+episode.</p>
+<p>Exersises here: <a href="https://app.mural.co/t/stsciinternal7446/m/stsciinternal7446/1761226323984/98fa21d3961fe8de7608fc9b04147472ff56cb4d" class="external-link">https://app.mural.co/t/stsciinternal7446/m/stsciinternal7446/1761226323984/98fa21d3961fe8de7608fc9b04147472ff56cb4d</a></p>
+<div class="section level2">
+<h2 id="minimal-fix">Minimal fix<a class="anchor" aria-label="anchor" href="#minimal-fix"></a>
+</h2>
+<ul>
+<li>Count the bunnies, be good (declutter) or evil (add clutter)<br>
+</li>
+<li>Level 2: Find the graph</li>
+</ul>
 </div>
+<div class="section level2">
+<h2 id="true-false-good-for-novice">True false (good for novice)<a class="anchor" aria-label="anchor" href="#true-false-good-for-novice"></a>
+</h2>
+<ul>
+<li><p>When building tools for Science, it is best practice to include
+every detail of a scientific concept</p></li>
+<li><p>When building tools for Science, it is best practice to use
+always use formal language and advanced vocabulary</p></li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="fill-in-the-blank-good-for-novice">Fill-in-the blank (good for novice)<a class="anchor" aria-label="anchor" href="#fill-in-the-blank-good-for-novice"></a>
+</h2>
+<ul>
+<li>The quickest way to lower cognitive load of a design is to____
+(delete something uncessary)</li>
+</ul>
+<p><strong>Fix a slightly broken design</strong> (good for novice)</p>
+<ul>
+<li><p>Give a layout with text, where the headings and text are not
+aligned. Have them fix the alignment (simple grid)</p></li>
+<li><p>Give a layout with text where all the text is the same size and
+weight. ask them to add hirearchy</p></li>
+</ul>
+<div class="section level3">
+<h3 id="examples-before-exercises">
+<strong>Examples before exercises</strong><a class="anchor" aria-label="anchor" href="#examples-before-exercises"></a>
+</h3>
+<p>FIXME use this space to make some notes about examples/narrative you
+could use to demonstrate the skills/teach the knowledge that learners
+will need to complete the exercise(s) you designed above.</p>
+<ul><li>
+</li></ul>
+</div>
+</div>
+</div>
+<div class="section level1">
+<h1 id="glossary-of-terms">Glossary of terms<a class="anchor" aria-label="anchor" href="#glossary-of-terms"></a>
+</h1>
+<p>FIXME add a list of terms or jargon from your lesson, along with
+their definitions.<br>
+The syntax below will make your glossary render nicely when added to the
+<code>learners/reference.md</code> page of your lesson.</p>
+<p>Cognitive load</p>
+<p>Default Mode Network vs. Task Mode Network</p>
+<p>Intrinsic vs. Extrinsic Cognitive Load vs. Subjective cognitive
+load</p>
+<p>Audience<br>
+Recognition vs. Recall<br>
+(understanding other people have different context than you)</p>
+<ul>
+<li>Jargon<br>
+</li>
+<li>Abbreviations / Acronyms<br>
+</li>
+<li>technical language (like database)<br>
+</li>
+<li>internal (team) language vs external communication - intentional
+branding</li>
+</ul>
+<p>Multi-channel cognitive load</p>
+<ul>
+<li>Verbal vs. Visual load</li>
+</ul>
+<p>Ways to reduce cognitive load (Sweller)…</p>
+<ul>
+<li>Weeding<br>
+</li>
+<li>Pre-training<br>
+</li>
+<li>Orienting<br>
+</li>
+<li>Channel-offloading</li>
+</ul>
+<p>Clutter</p>
+<p>Limited Capacity Model</p>
+<p>Plain language</p>
+<p>Skimming</p>
+<p>Scanning</p>
+<p>Greeking / Gestalt</p>
+<p>Reading order (readability)</p>
+<p>Visual hirearchy<br>
+Contrast<br>
+Faces<br>
+Center bias<br>
+Attentional templates<br>
+Space<br>
+Alignment<br>
+Grid<br>
+Size</p>
+<div class="section level2">
+<h2 id="key-rules-to-help-them-remember">Key rules to help them remember:<a class="anchor" aria-label="anchor" href="#key-rules-to-help-them-remember"></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li>Design is a conversation: Imagine the interface as a person, and
+you’re asking it questions, and it’s giving you answers in the order of
+the visual hierarchy.<br>
+</li>
+<li>Eye follows contrast<br>
+</li>
+<li>Deleting is opposite of scientific thinking</li>
+</ol>
 <!--
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section>
+</div>
+</div></section>
 </div>
     </main>
 </div>
@@ -736,7 +1046,7 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://Jenneh.github.io/Cognitive-Load-in-Science-UX/instructor/aio.html",
   "identifier": "https://Jenneh.github.io/Cognitive-Load-in-Science-UX/instructor/aio.html",
-  "dateCreated": "2025-10-24",
+  "dateCreated": "2025-12-30",
   "dateModified": "2025-12-30",
   "datePublished": "2025-12-30"
 }
