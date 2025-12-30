@@ -12,13 +12,15 @@ Given an example interface, learner will be able to create a quick 'whiteout' mo
 
 Try to count the bunnies in this photo as quickly as you can.
 
-![][image1]
+<img width="695" height="444" alt="image" src="https://github.com/user-attachments/assets/7363a5f8-1d7e-4c96-8bc2-68e58de273e9" />
+
 
 Now, try to count the bunnies as fast as possible again… 
 
 ## 
 
-![][image2]
+<img width="738" height="492" alt="image" src="https://github.com/user-attachments/assets/55b71dad-b7e0-42fb-8074-1dea6b2a779b" />
+
 
 Notice that it was much harder to find the (smaller) bunnies when there was more clutter? It's the classic "Where's Waldo" experience. High clutter increases your cognitive load (because you have to work harder to filter-out non-bunnies) and slows down your performance.
 
@@ -26,9 +28,11 @@ Interfaces work the same way. Now imagine the bunnies are crucial pieces of info
 
 ## Example 2: Two Graphs vs One graph
 
-![][image3]
+<img width="757" height="353" alt="image" src="https://github.com/user-attachments/assets/71d5791d-3219-4047-b72f-517f6bec1622" />
 
-![][image4]
+
+<img width="561" height="435" alt="image" src="https://github.com/user-attachments/assets/cf1589e6-294d-4958-bcba-be4966e25db6" />
+
 
 2. #### Context: Deleting is opposite of scientific thinking.
 
@@ -51,5 +55,3 @@ Let’s focus on the skill of deleting and de-emphasizing.
 ## Exercise \#2: Throw something away on your desk
 
 ## Exercise \#3: Delete from their own software (because they know it)
-
-* Open an image in mural (miro?) drawing a white box
