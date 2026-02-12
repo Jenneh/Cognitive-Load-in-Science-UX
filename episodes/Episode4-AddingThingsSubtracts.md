@@ -7,8 +7,16 @@ Given a self-chosen example interface, the learner will be able to identify one 
 Given an example interface, learner will be able to create a quick 'whiteout' mockup in Figma.
 
 ### Episode outline
+#### Demonstrate the problem
+#### Context: Deleting is opposite of scientific thinking.
+#### Tactics
+#### Exercise: Delete from their own software 
 
-1. #### Demonstrate the problem: count the bunnies \- It's easier to count the bunnies when there's no clutter
+
+
+1. ### Demonstrate the problem
+
+#### Example 1: count the bunnies \- It's easier to count the bunnies when there's no clutter
 
 Try to count the bunnies in this photo as quickly as you can.
 
@@ -42,7 +50,7 @@ Let’s focus on the skill of deleting and de-emphasizing.
 
 "In the spring of my senior year at Lisbon High—1966, this would have been—I got a scribbled comment that changed the way I rewrote my fiction once and forever. Jotted below the machine-generated signature of the editor was this mot: "Not bad, but PUFFY. You need to revise for length. Formula: 2nd Draft \= 1st Draft – 10%. Good luck." — Stephen King
 
-3. #### Tactics: 
+3. #### Tactics 
 
    * **Remove** \- There is usually text / steps in a workflow / visual clutter that can be entirely deleted  
    * **Hide until relevan**t \- Software is interactive. This is powerful because it allows us to share information as it becomes relevant to the user. Hide information until the user:   
@@ -52,6 +60,10 @@ Let’s focus on the skill of deleting and de-emphasizing.
 
    Often people worry that important information will be lost so they keep everything in. Remember If you let something go and it comes back then its meant to be
 
-## Exercise \#2: Throw something away on your desk
 
-## Exercise \#3: Delete from their own software (because they know it)
+## Exercise: Delete from their own software (because they know it)
+
+
+##Delete?
+Exercise \#2: Throw something away on your desk
+
