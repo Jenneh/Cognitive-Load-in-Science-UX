@@ -66,6 +66,10 @@ Pick a piece of software you work on (or a slide deck you've written). It can be
 If you can't think of any, use this website: 
 https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html?searchQuery=%7B%22service%22%3A%22CAOMDB%22%2C%22inputText%22%3A%22m61%20r%3D0%22%2C%22paramsService%22%3A%22Mast.Caom.Cone%22%2C%22title%22%3A%22MAST%3A%20m61%20r%3D0%22%2C%22columns%22%3A%22*%22%2C%22caomVersion%22%3Anull%7D
 
+1. Take a screenshot and pull it into a design software like Figma that allows you to draw shapes. In a pinch you can use an app like Mural or Powerpoint.
+2. Draw use white (or whatever color matches the background) boxes to cover parts of the screenshot. Try covering buttons, paragraphs of writing, etc.
+3. Cover the least important 10%.
+4. Now copy and paste. White-out more - cover 50% of the image. 
 
 
 ##remove this?
