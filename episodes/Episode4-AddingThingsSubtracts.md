@@ -7,10 +7,10 @@ Given a self-chosen example interface, the learner will be able to identify one 
 Given an example interface, learner will be able to create a quick 'whiteout' mockup in Figma.
 
 ### Episode outline
-#### Demonstrate the problem
-#### Context: Deleting is opposite of scientific thinking.
-#### Tactics
-#### Exercise: Delete from their own software 
+1. Demonstrate the problem
+2. Context: Deleting is opposite of scientific thinking.
+3. Tactics
+4. Exercise: Delete from their own software 
 
 
 
