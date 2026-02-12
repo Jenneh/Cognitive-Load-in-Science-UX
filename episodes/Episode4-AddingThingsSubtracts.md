@@ -36,7 +36,7 @@ Interfaces work the same way. Now imagine the bunnies are crucial pieces of info
 
 It's easier to complete the core task—counting the bunnies—when there's no clutter
 
-## Example 2: Two Graphs vs One graph
+#### Example 2: Two Graphs vs One graph
 
 <img width="757" height="353" alt="image" src="https://github.com/user-attachments/assets/71d5791d-3219-4047-b72f-517f6bec1622" />
 
@@ -44,7 +44,7 @@ It's easier to complete the core task—counting the bunnies—when there's no c
 <img width="561" height="435" alt="image" src="https://github.com/user-attachments/assets/cf1589e6-294d-4958-bcba-be4966e25db6" />
 
 
-2. #### Why unessesary complexity is such a problem in science 
+2. ### Why unessesary complexity is such a problem in science 
 
 In science education, deleting is opposite of scientific thinking. Students are encouraged to write long, wordy, jargon filled papers. Often professors have high word count requirements for papers. Many (most!) professionally published papers are similarly unessecarily complex. The culture becomes about peacocking intellegence rather than conveying the point.
 
@@ -53,7 +53,7 @@ The problem - key take-aways become lost among the noise. So a commonly used tac
 If science education had low word count requirements it might start to train writing consisely. Take it from Stephen King: 
 "I got a scribbled comment that changed the way I rewrote my fiction once and forever. Jotted below the machine-generated signature of the editor was this note: "Not bad, but PUFFY. You need to revise for length. Formula: 2nd Draft \= 1st Draft – 10%. Good luck."
 
-3. #### Tactics 
+3. ### Tactics 
 
 Let’s focus on the skill of deleting and de-emphasizing.
 
@@ -66,8 +66,12 @@ Let’s focus on the skill of deleting and de-emphasizing.
    People worry that important information will be lost so they keep everything. If you let something go and it comes back then its meant to be. Relevant information has a way of sticking around ;) 
 
 
-## Exercise: Delete from their own work (because they know it)
-Pick a piece of software you work on (or a slide deck you've written). It can be a website you've built, a Jupyter Notebook you've written, or something else. If you can't think of any, use this website: 
+### Exercise: Delete from your own project
+Pick a piece of software you work on (or a slide deck you've written). It can be a website you've built, a Jupyter Notebook you've written, or something else. 
+
+If you can't think of any, use this website: 
+https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html?searchQuery=%7B%22service%22%3A%22CAOMDB%22%2C%22inputText%22%3A%22m61%20r%3D0%22%2C%22paramsService%22%3A%22Mast.Caom.Cone%22%2C%22title%22%3A%22MAST%3A%20m61%20r%3D0%22%2C%22columns%22%3A%22*%22%2C%22caomVersion%22%3Anull%7D
+
 
 
 ##remove this?
