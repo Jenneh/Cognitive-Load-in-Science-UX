@@ -18,16 +18,40 @@
 Let's review an example together.
 
 ### Visual methods of establishing hirearchy
+Before you make any design decisions, establish your goal. What information do you want emphazized? What are key takeaways? 
 
-#### reading order
-When establishing hirearchy, we are talking about reading order. Reading order is, the order you review content on a page. But we can expand it into many different design contexts: a painting, a room, an app, a paper.
+Context has a huge impact on design. All of the following methods will have different impacts depending on the situation. In one case, one method is most approproate, in other cases multiple methods could all serve equally well. Design does not have hard rules. 
 
-In 
-#### alignment  
-#### fonts  
-#### sizes  
-#### spacing  
-#### grouping  
+We can know when we make good decisions when we are achieving a goal. (Emphazizing the most important part, communicating key takeaways, etc.)
+
+#### Reading Order
+When establishing hirearchy, we are talking about reading order. Reading order is, the order you view information. This can be content on a page or many other design contexts: a painting, a room, an app.
+
+**Cultural context impacts reading order**
+In English, we read left to right. So unless there is something directing our attention differently, English speakers will start reading software page content left to right. Other languages read right to left or top to bottom. Someone who habitually reads in this order may naturally review other content in that direction too.
+
+#### Size  
+An easy way to direct attention is through size. An object is bigger than others, we will tend to look at it first. 
+
+#### Contrast
+When most objects are similar, and some are different, the different ones draw our attention. The difference can be size, color, font treatment, movement, etc.
+
+#### Spacing  
+
+
+#### Grouping  
+
+
+#### Alignment  
+
+#### Fonts  
+
+Capitolization
+Size
+Some best practices with font:
+Line width no more than 70 characters
+
+
 
  
 ### Exercise: Create  hirearchy
