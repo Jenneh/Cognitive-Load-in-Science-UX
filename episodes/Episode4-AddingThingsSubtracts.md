@@ -44,6 +44,8 @@ In science education, deleting is opposite of scientific thinking. Students are 
 
 The problem - key take-aways become lost among the noise. So a commonly used tactic is **over-emphasizing**. Papers are a crowded room so scientists dress their hypothesis in bright yellow. But there are 100 other people dressed in orange and purple. So then they give their hypothesis a hat. The graphic design equivelant - The hypothesis is bolded, but other things are bolded, so then it gets underlines too.
 
+Scientists implicitally know that there is a lot of noise, and they want to emphasize important parts. But the only tool in their toolchest to do this is drawing more attention. They do not learn the skill of deemphazizing.
+
 If science education had low word count requirements it might start to train writing consisely. Take it from Stephen King: 
 "I got a scribbled comment that changed the way I rewrote my fiction once and forever. Jotted below the machine-generated signature of the editor was this note: "Not bad, but PUFFY. You need to revise for length. Formula: 2nd Draft \= 1st Draft – 10%. Good luck."
 
