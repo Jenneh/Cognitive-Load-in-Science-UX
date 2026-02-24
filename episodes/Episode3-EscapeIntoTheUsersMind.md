@@ -1,4 +1,4 @@
-## Theory of Mind \- Escape your own perspective, and feel the users' instead
+## Theory of Mind \- Escape your own perspective, and feel the users' instead (Walk a mile in the user's shoes)
 
 **Learning objectives**
 
