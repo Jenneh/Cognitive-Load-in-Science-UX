@@ -11,21 +11,34 @@
 ### Episode outline
 1. ‘call out what you see’ exercise
 2. Visual methods of establishing hirearchy
-* alignment  
-  * fonts  
-  * sizes  
-  * spacing  
-  * grouping  
-  * reading order
- 
- 
 3. Exercise: Create  hirearchy
-   EASY:
+
+
+### ‘call out what you see’ exercise
+Let's review an example together.
+
+### Visual methods of establishing hirearchy
+
+#### reading order
+When establishing hirearchy, we are talking about reading order. Reading order is, the order you review content on a page. But we can expand it into many different design contexts: a painting, a room, an app, a paper.
+
+In 
+#### alignment  
+#### fonts  
+#### sizes  
+#### spacing  
+#### grouping  
+
+ 
+### Exercise: Create  hirearchy
+
+#### EASY MODE:
    * Make one thing bigger.
    * Make one thing a different color.
-  
-   HARD:
+
+#### HARD MODE:
    * Use multiple tactics to see one thing first, one thing second, and one thing third.
+
 
 How can you improve existing software  
 fix “clutter”  
