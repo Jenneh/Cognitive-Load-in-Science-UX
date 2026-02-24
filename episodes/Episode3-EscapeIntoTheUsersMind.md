@@ -18,8 +18,10 @@ shows when children learn that not everyone has the same context
 https://youtu.be/YGSj2zY2OEM?si=wtXl-Il7k14V11Z 
 
 ### Definition of Theory of Mind
+What is somebody else thinking, different from what you are thinking? If you have a strong theory of mind, you are better able to understand and predict others' behavior.  
 
 ### How does this apply to design?
+You are not your user.
 
 #### Language and jargon  
 #### Workflows \- you have been involved in building the tool, you know the ins and outs of how it works. Your users do not have that context  
