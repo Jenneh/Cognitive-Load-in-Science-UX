@@ -20,6 +20,6 @@ shows when children learn that not everyone has the same context
 
 ### How does this apply to design?
 
-## Language and jargon  
-  * Workflows \- you have been involved in building the tool, you know the ins and outs of how it works. Your users do not have that context  
-  * You may assume ease of use based on your own domain knowledge / familiarity, but not all users will have that
+### Language and jargon  
+### Workflows \- you have been involved in building the tool, you know the ins and outs of how it works. Your users do not have that context  
+### You may assume ease of use based on your own domain knowledge / familiarity, but not all users will have that
