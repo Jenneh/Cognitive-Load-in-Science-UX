@@ -18,7 +18,7 @@ Given an example interface, learner will be able to create a quick 'whiteout' mo
 
 #### Count the bunnies
 
-Try to count the bunnies in this photo as quickly as you can.
+Count the bunnies in this photo as quickly as you can.
 
 <img width="695" height="444" alt="image" src="https://github.com/user-attachments/assets/7363a5f8-1d7e-4c96-8bc2-68e58de273e9" />
 
